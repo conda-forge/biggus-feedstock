@@ -5,7 +5,7 @@ Home: https://pypi.python.org/pypi/Biggus
 
 Package license: LGPLv3
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Virtual large arrays and lazy evaluation.
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/biggus-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/biggus-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/biggus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/biggus-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/biggus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/biggus-feedstock/branch/master)

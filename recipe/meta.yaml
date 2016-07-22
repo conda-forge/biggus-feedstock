@@ -1,4 +1,4 @@
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 package:
     name: biggus
@@ -35,3 +35,4 @@ extra:
         - pelson
         - rhattersley
         - ocefpaf
+        - marqh

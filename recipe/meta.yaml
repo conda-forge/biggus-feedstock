@@ -1,38 +1,39 @@
 {% set version = "0.14.0" %}
 
 package:
-    name: biggus
-    version: {{ version }}
+  name: biggus
+  version: {{ version }}
 
 source:
-    fn: v{{ version }}.tar.gz
-    url: https://github.com/SciTools/biggus/archive/v{{ version }}.tar.gz
-    sha256: 947631a4730295e97c99c0631146bb063a8944271851c97115cc3fd94cf0d76e
+  fn: v{{ version }}.tar.gz
+  url: https://github.com/SciTools/biggus/archive/v{{ version }}.tar.gz
+  sha256: 947631a4730295e97c99c0631146bb063a8944271851c97115cc3fd94cf0d76e
 
 build:
-    number: 1
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 2
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - numpy
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - numpy
 
 test:
-    imports:
-        - biggus
+  imports:
+    - biggus
 
 about:
-    home: https://pypi.python.org/pypi/Biggus
-    license: LGPLv3
-    summary: Virtual large arrays and lazy evaluation.
+  home: https://pypi.python.org/pypi/Biggus
+  license: LGPL-3.0
+  license_file: COPYING.LESSER
+  summary: 'Virtual large arrays and lazy evaluation.'
 
 extra:
-    recipe-maintainers:
-        - pelson
-        - rhattersley
-        - ocefpaf
-        - marqh
+  recipe-maintainers:
+    - pelson
+    - rhattersley
+    - ocefpaf
+    - marqh

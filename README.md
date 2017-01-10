@@ -3,7 +3,7 @@ About biggus
 
 Home: https://pypi.python.org/pypi/Biggus
 
-Package license: LGPLv3
+Package license: LGPL-3.0
 
 Feedstock license: BSD 3-Clause
 
